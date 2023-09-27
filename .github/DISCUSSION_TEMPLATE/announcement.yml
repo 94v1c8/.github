@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-discussion.json
+---
+title: 'Project Announcement'
+labels:
+  - ':announcement: Project Announcement'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Project Announcement
+  - type: input
+    attributes:
+      label: title
+      description: Discussion Title
