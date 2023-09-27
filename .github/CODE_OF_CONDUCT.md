@@ -1,3 +1,10 @@
+---
+name: Contributor Code of Conduct
+description: |
+This document details the convenant between the project leaders (us) and the project contributors (you).
+
+It is agreed to by any form of participation within this project.
+---
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

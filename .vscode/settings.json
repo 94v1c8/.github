@@ -1,5 +1,34 @@
-// {
-//     "yaml.schemas": {
-//         "https://json.schemastore.org/github-issue-config.json": "vscode-vfs://github/p3242c/.github/.github/ISSUE_TEMPLATE/config.yml"
-//     }
-// }
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        ".github/ISSUE_TEMPLATE/config.yml"
+      ],
+      "url": "https://json.schemastore.org/github-issue-config.json"
+    },
+    {
+      "fileMatch": [
+        ".github/ISSUE_TEMPLATE/*.yml"
+      ],
+      "url": "https://json.schemastore.org/github-issue-forms.json"
+    },
+    {
+      "fileMatch": [
+        ".github/FUNDING.yml",
+      ],
+      "url": "https://json.schemastore.org/github-funding.json"
+    },
+    {
+      "fileMatch": [
+        ".github/DISCUSSION_TEMPLATE/*.ynl"
+      ],
+      "url": "https://json.schemastore.org/github-discussion.json"
+    },
+    {
+      "fileMatch": [
+        ".github/workflow/*.ynl"
+      ],
+      "url": "https://json.schemastore.org/github-workflow.json"
+    }
+  ]
+}
