@@ -1,2 +1,5 @@
 # yaml-language-server: $schema=https://json.schemastore.org/github-issue-forms.json
-
+# # Blank GitHub Issue Template
+---
+name: ' '
+description: ' '
